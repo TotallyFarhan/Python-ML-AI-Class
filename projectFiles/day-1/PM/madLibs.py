@@ -1,0 +1,21 @@
+mad_libs_text = "Dear RELATIVE1,\nI am having a(n) ADJECTIVE1 time at camp. The counselour is ADJECTIVE2 and the food is ADJECTIVE3. I met PERSON_NAME and we became ADJECTIVE4 friends. Unfortunately, PERSON_NAME is ADJECTIVE5 and I ED_VERB my BODY_PART so we couldn`t go ING_VERB like everybody else. I need more PLURAL_NOUN and a NOUN sharpener, so please ADVERB VERB1 more when you VERB2 back.\nYour RELATIVE2,\nPERSON_IN_ROOM"
+
+mad_libs_text = mad_libs_text.replace("RELATIVE1", "Mom")
+mad_libs_text = mad_libs_text.replace("ADJECTIVE1", "Nice")
+mad_libs_text = mad_libs_text.replace("ADJECTIVE2", "Smelly")
+mad_libs_text = mad_libs_text.replace("ADJECTIVE3", "aware")
+mad_libs_text = mad_libs_text.replace("PERSON_NAME", "Oscar")
+mad_libs_text = mad_libs_text.replace("ADJECTIVE4", "tall")
+mad_libs_text = mad_libs_text.replace("ADJECTIVE5", "short")
+mad_libs_text = mad_libs_text.replace("ED_VERB", "tried")
+mad_libs_text = mad_libs_text.replace("BODY_PART", "foot")
+mad_libs_text = mad_libs_text.replace("ING_VERB", "running")
+mad_libs_text = mad_libs_text.replace("PLURAL_NOUN", "cars")
+mad_libs_text = mad_libs_text.replace("NOUN", "truck")
+mad_libs_text = mad_libs_text.replace("ADVERB", "quickly")
+mad_libs_text = mad_libs_text.replace("VERB1", "fly")
+mad_libs_text = mad_libs_text.replace("VERB2", "think")
+mad_libs_text = mad_libs_text.replace("RELATIVE2", "son")
+mad_libs_text = mad_libs_text.replace("PERSON_IN_ROOM", "Banker")
+
+print(mad_libs_text)
